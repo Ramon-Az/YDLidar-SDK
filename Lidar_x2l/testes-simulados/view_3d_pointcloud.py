@@ -100,7 +100,6 @@ def create_sample_3d():
             data.append([x, y, z, distance, angle, height, layer])
     
     df = pd.DataFrame(data, columns=['X', 'Y', 'Z', 'Distance', 'Angle', 'Height', 'Layer'])
-    df.to_csv('./data/nuvem_de_pontos_simulada/sample_3d.csv', index=False)
     print("Amostra 3D criada: sample_3d.csv")
     return './data/nuvem_de_pontos_simulada/sample_3d.csv'
 
