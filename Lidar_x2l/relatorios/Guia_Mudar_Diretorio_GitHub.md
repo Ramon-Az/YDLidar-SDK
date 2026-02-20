@@ -44,7 +44,13 @@ Você deve ver algo como:
 origin https://github.com/usuario/novo-repositorio.git (fetch)  
 origin https://github.com/usuario/novo-repositorio.git (push)
 
-## 6\. Faça o Primeiro Push (se necessário)
+## 6\. Configuração global (todos os repositórios)
+
+`git config --global user.name "Seu Nome"`
+
+`git config --global user.email "seu.email@exemplo.com"`
+
+## 7\. Faça o Primeiro Push (se necessário)
 
 Se for um novo repositório e você quiser enviar os arquivos:
 
