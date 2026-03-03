@@ -2,6 +2,9 @@
 import platform
 import glob
 import os
+
+VERSION = "1.0"
+
 try:
     import ydlidar # type: ignore
 except ImportError:

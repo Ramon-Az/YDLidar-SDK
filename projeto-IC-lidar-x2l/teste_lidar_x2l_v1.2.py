@@ -8,6 +8,8 @@ import os
 import logging
 from lidar_config import *
 
+VERSION = "1.2"
+
 # Configurar logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)

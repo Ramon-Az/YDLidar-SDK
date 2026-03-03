@@ -11,6 +11,8 @@
 **Projeto de Iniciação Científica - PAIC/UEA**  
 *Estudo de técnicas de utilização do sensor LiDAR X2L em ambientes fechados controlados*
 
+[**Pasta do projeto-IC-lidar-x2l**](projeto-IC-lidar-x2l)
+
 </div>
 
 ---
