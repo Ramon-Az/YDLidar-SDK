@@ -135,9 +135,9 @@ def salvar_pontos_camadas(pontos_data, altura_inicial, altura_final, intervalo):
             return None
         
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        filename = f"pontos_camadas_{altura_inicial}m_a_{altura_final}m_intervalo_{intervalo}m_{timestamp}.csv"
+        filename = f"pontos-camadas-{altura_inicial}m-a-{altura_final}m-intervalo-{intervalo}m-{timestamp}.csv"
         
-        data_dir = 'data/pontos_camadas'
+        data_dir = 'data/pontos-reais-por-camadas'
         os.makedirs(data_dir, exist_ok=True)
         filepath = os.path.join(data_dir, filename)
         
